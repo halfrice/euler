@@ -20,7 +20,4 @@ def evenFibs(max):
     f = fib(i)
   return s
 
-
-
-
-print('Sum of all evens below 4 mill:',evenFibs(4000000))
+print(evenFibs(4000000))
