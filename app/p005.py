@@ -19,7 +19,4 @@ def evendiv(min,max):
     print(guess)
   return guess
 
-# print(evendiv(1,10))
 print(evendiv(1,20))
-
-
