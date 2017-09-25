@@ -9,4 +9,4 @@ def m3or5(limit):
     if i%3 == 0 or i%5 == 0: s += i
   return(s)
 
-print('Sum:',m3or5(1000))
+print(m3or5(1000))
