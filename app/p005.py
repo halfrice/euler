@@ -16,7 +16,6 @@ def evendiv(min,max):
         possible = False
       i += 1
     if possible: evenlydiv = True
-    print(guess)
   return guess
 
 print(evendiv(1,20))
