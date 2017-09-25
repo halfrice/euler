@@ -5,9 +5,9 @@
 # from 1 to 20?
 
 def evendiv(min,max):
-  evenlydiv = False
+  div = False
   guess = max
-  while evenlydiv is False:
+  while div is False:
     possible = True
     i = min
     while possible and i <= max:
@@ -15,7 +15,7 @@ def evendiv(min,max):
         guess += max
         possible = False
       i += 1
-    if possible: evenlydiv = True
+    if possible: div = True
   return guess
 
 print(evendiv(1,20))
