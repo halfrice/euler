@@ -18,8 +18,4 @@ def largestPalindrome(digits):
         largest = p
   return largest
 
-# largestPalindrome(91,99)
-# largestPalindrome(991,999)
-print(largestPalindrome(2))
 print(largestPalindrome(3))
-
